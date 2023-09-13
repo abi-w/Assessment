@@ -1,0 +1,32 @@
+Question 1.
+Define HTML and explain its role in web development. (5 marks)
+
+HTML stands for Hyper Text Markup Language· HTML is used as the standard markup language for making Web pages · HTML describes the structure of a Web page. HTML works to build this structure by using tags that tell browsers what to do with text. 
+
+Question 2.
+Describe the box model in CSS and how it influences the layout of elements on a webpage. (5 marks)
+
+The CSS box modelused to create the design and layot of webpages. It is a container that contains multiple properties including borders, margin, padding as well as the wbesite's content.
+
+Question 3.
+Explain the difference between inline and block-level elements in HTML and provide examples
+of each. (5 marks)
+
+The difference between inline elements and block-line elements in html are:
+
+Inline elements occupy only enough width that is sufficient to it and allows other elements next to it which are also inline. Inline elements don’t start from a new line and don’t have top and bottom margins like block elements have. An axample of a inline element is <br>
+
+Whereas block elements consume the entire width available. They always start in a new line and have top and bottom margins. They don't contain any other elements next them. For example <h1> <h6> are block elements.
+
+Question 4.
+What is the purpose of CSS media queries? How are they used to implement responsive design? (5
+marks)
+
+Media queries are used to adapt websites to different screen sizes for example they can change the look fo a website viewed on a mobile phone.They can also be used to detect other things about the environment your site is running on, for example whether the user is using a touchscreen rather than a mouse.
+
+Question 5.
+Describe the importance of semantic HTML elements and provide at least three examples of such
+elements. (5 marks)
+
+A semantic element clearly describes its meaning to both the browser and the developer.They're important as they can help users using screenreaders understand the contant of a website.
+Some examples of semantic elements are <form>, <table>, and <article> 
