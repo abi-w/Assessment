@@ -74,11 +74,11 @@ h1 {
 }
 
 p {
-    font-size: 18px;
+    font-size: 30px;
     line-height: 1.5;
 }
 
-/* Add media query for Mobile */
+/* Media query for Mobile */
 @media (max-width: 768px) {
     #navbar {
         padding: 1rem; 
@@ -96,5 +96,32 @@ p {
     #navbar ul li {
         display: block; 
         margin-bottom: 0.5rem; 
+    }
+}
+@media (max-width:767px) {
+    .portfolio img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+@media (min-width:768px) {
+    .portfolio img {
+        max-width: 240px;
+        max-height: 240px;
+    }
+}
+
+@media (min-width:992px) {
+    .portfolio img {
+        max-width: 314px;
+        max-height: 314px;
+    }
+}
+
+@media (min-width:1200px) {
+    .portfolio img {
+        max-width: 380px;
+        max-height: 380px;
     }
 }
