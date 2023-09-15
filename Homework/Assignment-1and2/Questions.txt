@@ -1,0 +1,54 @@
+Assignment 1 and 2 
+Theory Questions
+
+Question 1:
+What does HTML stand for, and what is its primary purpose in web development?
+
+HTML stands for Hypertext Markup Language. It is the standard markup language for creating websites and is used for structuring websites and it’s content.
+
+Question 2:
+Explain the difference between HTML elements and HTML attributes. Provide examples of each.
+
+HTML element holds the content, for example <p> and </p> are HTML elements. HTML attributes describe the characteristic of an HTML element in detail such as <img> for image attributes or <a> for hyperlinks.
+
+Question 3:
+What is the purpose of the "DOCTYPE" declaration in an HTML document? What happens if you omit it?
+
+The purpose of a DOCTYPE declaration is to ensure the website can be viewed on multiple browser. When it is omitted other Devs can view it.
+
+Question 4:
+Describe the difference between inline elements and block-level elements in HTML. Give examples of each.
+
+Block elements always start from a new line. An example of this is <p> 
+
+Inline elements never start from a new line, for example <a> is a inline element.
+
+Question 5:
+Explain the significance of the following HTML tags and their usage:
+
+<head> The <head> element is a container for metadata (data about data)
+<div> The <div> tag defines a division or a section in an HTML document.
+<a> Hyperlink 
+<img> For inserting an image
+<ul>, <ol>, and <li> Different bullet point styles
+
+Question 6:
+What are semantic HTML elements? Provide examples of semantic elements and explain why they are important for web accessibility and SEO.
+A semantic element clearly describes its meaning to both the browser and the developer. Examples of semantic elements: <form> , <table> , and <article>. They are important for web accessibility because users using screen readers are able to read the webpage properly to know it’s content. It’s also helpful for SEO because they show the role of the content within the tags. That information allows engine crawlers to have a better understanding of the content of the website.
+
+Question 7:
+What is the purpose of the HTML form element (<form>) and its associated form controls? Provide examples of common form controls.
+An HTML form is used to collect user input. The user input is most often sent to a server for processing. For example entering a First name and a last name in a form.
+
+Question 8:
+How can you add comments in HTML? Why are comments useful in web development?
+To leave a comment in HTML, place a <! -- tag before the code and a --> tag after the code that you want to hide.  Comments are added with the purpose to make the source code easier for humans to understand.
+
+Question 9:
+What is the HTML5 standard, and what are some of the new features introduced in HTML5?
+HTML5 is a markup language used for structuring and presenting content on the World Wide Web. Some new features introduced are Semantic Elements and Audio and Video Support.
+
+Question 10:
+Explain the concept of "responsive web design" and how HTML contributes to creating responsive websites.
+
+Responsive web design (RWD) is ensuring that web pages render well on a variety of devices and window or screen sizes from minimum to maximum display size to ensure usability and satisfaction.
