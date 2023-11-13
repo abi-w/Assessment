@@ -1,4 +1,4 @@
-Theory
+Theory Questions
 
 Explain the concept of React components. How do they contribute to building user 
 interfaces in React? 
