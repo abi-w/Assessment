@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/custom.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-blue">
+    <a class="navbar-brand" href="#">Personal Blog</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Blog Categories -->
+  <div class="container mt-4">
+    <div class="row mb-4">
+      <div class="col-md-12">
+        <div class="btn-group" role="group">
+          <button type="button" class="btn btn-secondary">Tech</button>
+          <button type="button" class="btn btn-secondary">Sport</button>
+          <button type="button" class="btn btn-secondary">News</button>
+          <button type="button" class="btn btn-secondary">Fashion</button>
+          <button type="button" class="btn btn-secondary">Travel</button>
+          <button type="button" class="btn btn-secondary">Celebrity</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Latest Blog Posts Section -->
+    <div class="row">
+      <div class="col-md-8">
+        <!-- First Blog Post -->
+        <div class="card mb-4">
+          <img src="https://contenthub-static.grammarly.com/blog/wp-content/uploads/2017/11/how-to-write-a-blog-post.jpeg"
+            class="card-img-top" alt="blog-post-image">
+          <div class="card-body">
+            <h2 class="card-title">
+              Sample Blog Post Title
+              <button class="btn btn-link btn-sm" data-toggle="collapse" data-target="#samplePostContent"
+                aria-expanded="false" aria-controls="samplePostContent">
+                Read More
+              </button>
+            </h2>
+            <div id="samplePostContent" class="collapse">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod quam at libero pellentesque, vel
+                ornare purus varius. Ut gravida semper leo, vel euismod nunc euismod nec.
+              </p>
+              <p class="card-text">
+                Curabitur vel felis dapibus, venenatis urna vel, condimentum tellus. Fusce auctor erat eu euismod
+                fermentum. Vivamus ut tempor urna. Vestibulum at lacinia elit. Nulla facilisi.
+              </p>
+            </div>
+          </div>
+          <!-- Comment Section -->
+          <div class="card-footer">
+            <h4 class="card-title">Comments</h4>
+            <!-- Sample Comments -->
+            <div class="media">
+              <img src="https://via.placeholder.com/50" class="mr-3" alt="user-avatar">
+              <div class="media-body">
+                <h5 class="mt-0">User Name</h5>
+                <p>Sample comment text. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+            <div class="media">
+              <img src="https://via.placeholder.com/50"
+                class="mr-3" alt="user-avatar">
+              <div class="media-body">
+                <h5 class="mt-0">Another User</h5>
+                <p>Another comment. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                  fugiat nulla pariatur.</p>
+              </div>
+            </div>
+            <!-- Add more comments as needed -->
+
+            <!-- User Comment Section -->
+            <div class="media mt-3">
+              <img src="https://via.placeholder.com/50" class="mr-3" alt="user-avatar">
+              <div class="media-body">
+                <h5 class="mt-0">Your Name</h5>
+                <!-- Add your comment input field here -->
+                <textarea class="form-control" rows="3" placeholder="Add your comment..."></textarea>
+                <!-- Add a button to submit the comment -->
+                <button type="button" class="btn btn-primary mt-2">Post Comment</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second Blog Post -->
+        <div class="card mb-4">
+          <img src="https://contenthub-static.grammarly.com/blog/wp-content/uploads/2017/11/how-to-write-a-blog-post.jpeg"
+            class="card-img-top" alt="blog-post-image">
+          <div class="card-body">
+            <h2 class="card-title">
+              Another Blog Post Title
+              <button class="btn btn-link btn-sm" data-toggle="collapse" data-target="#anotherPostContent"
+                aria-expanded="false" aria-controls="anotherPostContent">
+                Read More
+              </button>
+            </h2>
+            <div id="anotherPostContent" class="collapse">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod quam at libero pellentesque, vel
+                ornare purus varius. Ut gravida semper leo, vel euismod nunc euismod nec.
+              </p>
+              <p class="card-text">
+                Curabitur vel felis dapibus, venenatis urna vel, condimentum tellus. Fusce auctor erat eu euismod
+                fermentum. Vivamus ut tempor urna. Vestibulum at lacinia elit. Nulla facilisi.
+              </p>
+            </div>
+          </div>
+          <!-- Comment Section -->
+          <div class="card-footer">
+            <h4 class="card-title">Comments</h4>
+            <!-- Sample Comments -->
+            <div class="media">
+              <img src="https://via.placeholder.com/50" class="mr-3" alt="user-avatar">
+              <div class="media-body">
+                <h5 class="mt-0">User Name</h5>
+                <p>Sample comment text. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+            <div class="media">
+              <img src="https://via.placeholder.com/50" class="mr-3" alt="user-avatar">
+              <div class="media-body">
+                <h5 class="mt-0">Another User</h5>
+                <p>Another comment. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                  fugiat nulla pariatur.</p>
+              </div>
+            </div>
+            <!-- Add more comments as needed -->
+
+            <!-- User Comment Section -->
+            <div class="media mt-3">
+              <img src="https://via.placeholder.com/50" class="mr-3" alt="user-avatar">
+              <div class="media-body">
+                <h5 class="mt-0">Your Name</h5>
+                <!-- Add your comment input field here -->
+                <textarea class="form-control" rows="3" placeholder="Add your comment..."></textarea>
+                <!-- Add a button to submit the comment -->
+                <button type="button" class="btn btn-primary mt-2">Post Comment</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Add more blog posts as needed -->
+
+      </div>
+      <div class="col-md-4">
+        <!-- Author Section -->
+        <div class="card mb-4">
+          <img src="https://scontent-man2-1.xx.fbcdn.net/v/t39.30808-6/365303489_1738524616578373_489454426360434357_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=MUvwQ9WsSlgAX_3XMPu&_nc_ht=scontent-man2-1.xx&oh=00_AfD4V12BRFd5hATLvCsvt6u26At6znOemMpRDfZ5-2Loww&oe=6558E0C8" alt="author-image">
+          <div class="card-body">
+            <h5 class="card-title">About the Author</h5>
+            <p class="card-text">Abigail Whittle</p>
+            <p class="card-text">Aspiring Front End Developer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h4>Connect with Me</h4>
+          <!-- Social Media Icons and Links -->
+          <ul class="list-inline">
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/" target="_blank" title="LinkedIn">
+                <i class="fab fa-linkedin fa-2x"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://twitter.com/" target="_blank" title="Twitter">
+                <i class="fab fa-twitter fa-2x"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Include Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- News API Script -->
+  <script>
+    $(document).ready(function () {
+      // Your News API URL (Replace with a valid news API URL)
+      var newsApiUrl = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=350073e3681e4548a86ddf223a892e33';
+
+      // Fetch news data
+      $.ajax({
+        url: newsApiUrl,
+        method: 'GET',
+        dataType: 'json',
+        success: function (data) {
+          // Update the news section with fetched data
+          var newsList = $('#newsList');
+          for (var i = 0; i < data.articles.length; i++) {
+            var article = data.articles[i];
+            var listItem = $('<li class="list-group-item"></li>');
+            listItem.append('<h5>' + article.title + '</h5>');
+            listItem.append('<p>' + article.description + '</p>');
+            listItem.append('<a href="' + article.url + '" target="_blank">Read more</a>');
+            newsList.append(listItem);
+          }
+        },
+        error: function (error) {
+          console.log('Error fetching news data:', error);
+        }
+      });
+    });
+  </script>
+
+</body>
+
+</html>
