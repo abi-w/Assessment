@@ -1,0 +1,47 @@
+/* Update background with a gradient */
+body {
+  background: linear-gradient(to bottom, #86B2F3, #6491D4);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #000000;
+}
+
+/* Update background color of the jumbotron */
+.jumbotron {
+  background-color: #000000; 
+  color: #000000; 
+}
+
+/* Update the background color of the navigation bar */
+.navbar {
+  background-color: #325181;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* Update text color of navigation links */
+.navbar .nav-link {
+  color: #000000;
+}
+
+/* Update button colors */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darken the primary color by 10% */
+  border-color: #0056b3;
+}
+
+/* Update card background color and text color on blog posts */
+.card {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #001F3F; /* Dark navy blue text color on blog posts */
+}
+
+/* Update footer background color */
+.footer {
+  background-color: #000000;
+  color: #000000;
+}
